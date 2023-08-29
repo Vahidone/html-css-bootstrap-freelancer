@@ -1,0 +1,11 @@
+header {
+  background-color: #2d3d4f;
+  height: 90px;
+}
+.debug {
+  background-color: rgb(240, 163, 163);
+  border: 1px solid black;
+}
+.ml-20 {
+  margin-left: 20px;
+}
