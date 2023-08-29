@@ -9,3 +9,7 @@ header {
 .ml-20 {
   margin-left: 20px;
 }
+section.start {
+  height: 490px;
+  background-color: #1abc9b;
+}
