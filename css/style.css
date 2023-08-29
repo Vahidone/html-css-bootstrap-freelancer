@@ -7,6 +7,15 @@ header {
   border: 1px solid black;
   min-height: 50px;
 }
+.h-85 {
+  height: 85%;
+}
+.h-15 {
+  height: 15%;
+}
+.h-356 {
+  height: 356px;
+}
 .ml-20 {
   margin-left: 20px;
 }
@@ -14,6 +23,41 @@ section.start {
   height: 490px;
   background-color: #1abc9b;
 }
+
+section.portfolio .row .col-4 {
+  height: 260px;
+}
+section.portfolio .title {
+  height: 150px;
+}
+section.contact {
+  height: 600px;
+}
+section.about {
+  height: 705px;
+  background-color: #1abc9b;
+}
+section.about .row {
+  height: 455px;
+}
+
+section.about .title {
+  height: 150px;
+}
+section.about .btn {
+  height: 100px;
+}
 .h-20 {
   height: 20px;
+}
+.portfolio .title {
+  height: 150px;
+}
+.footer-top {
+  height: 450px;
+  background-color: #3a546d;
+}
+.footer-buttom {
+  height: 110px;
+  background-color: #2d3d4f;
 }
