@@ -1,63 +1,36 @@
-header {
-  background-color: #2d3d4f;
-  height: 90px;
-}
 .debug {
-  background-color: rgb(240, 163, 163);
+  background-color: rgb(245, 178, 178);
   border: 1px solid black;
-  min-height: 50px;
-}
-.h-85 {
-  height: 85%;
-}
-.h-15 {
-  height: 15%;
-}
-.h-356 {
-  height: 356px;
-}
-.ml-20 {
-  margin-left: 20px;
-}
-section.start {
-  height: 490px;
-  background-color: #1abc9b;
+  min-height: 60px;
 }
 
-section.portfolio .row .col-4 {
-  height: 260px;
-}
-section.portfolio .title {
-  height: 150px;
-}
-section.contact {
-  height: 600px;
-}
-section.about {
-  height: 705px;
-  background-color: #1abc9b;
-}
-section.about .row {
-  height: 455px;
+header {
+  height: 90px;
+  background-color: #2d3d4f;
 }
 
-section.about .title {
-  height: 150px;
+main section:nth-child(odd) {
+  background-color: #1abc9b;
+  color: white;
 }
-section.about .btn {
-  height: 100px;
+
+.container-start {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
-.h-20 {
-  height: 20px;
+
+.container-about {
+  width: 70%;
+  max-width: 980px;
+  margin: 0 auto;
 }
-.portfolio .title {
-  height: 150px;
-}
+
 .footer-top {
-  height: 450px;
   background-color: #3a546d;
 }
-.footer-buttom {
-  height: 110px;
+
+.footer-bottom {
   background-color: #2d3d4f;
+  height: 110px;
 }
