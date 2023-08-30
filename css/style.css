@@ -83,12 +83,23 @@ img {
   border-top: 0;
   border-right: 0;
 }
-
+/* FOOTER ********************* */
 .footer_top {
   background-color: #3a546d;
+  color: white;
+}
+.footer_top p {
+  font-size: 1.3rem;
+}
+.footer_top p span {
+  color: #1abc9b;
 }
 
 .footer_bottom {
   background-color: #2d3d4f;
   height: 110px;
+}
+.social_icon i {
+  font-size: 2.5rem;
+  margin: 0 20px;
 }
