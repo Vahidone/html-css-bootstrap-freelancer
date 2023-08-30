@@ -3,6 +3,14 @@
   border: 1px solid black;
   min-height: 60px;
 }
+.btn_green {
+  background-color: #1abc9b;
+  color: white;
+}
+.btn_green:hover {
+  background-color: #28cfae;
+  color: white;
+}
 /* header ****************** */
 header {
   height: 90px;
@@ -60,10 +68,20 @@ img {
 /* section portfolio *** */
 
 /* section about ** */
-.container_about {
+.container_about,
+.container_contact {
   width: 70%;
   max-width: 980px;
   margin: 0 auto;
+}
+
+/* section contact *** */
+.form_border {
+  border-radius: 0;
+  border-top: 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
 }
 
 .footer_top {
