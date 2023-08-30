@@ -22,21 +22,22 @@ main section:nth-child(odd) {
   width: 300px;
   height: 300px;
 }
-.container_start figure img {
+img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 .container_start .icon_star {
   height: 40px;
 }
 /* TODO: la lunghezza delle linee in responsive mode >> in lavorazione  */
-.container_start .icon_star .line_icon {
+.icon_star .line_icon {
   width: 15%;
   height: 10%;
   background-color: white;
 }
-.container_start .icon_star .star {
+.icon_star .star {
   width: 10%;
   height: 116%;
   font-size: 1.8rem;
@@ -55,6 +56,9 @@ main section:nth-child(odd) {
   text-decoration: underline;
   color: rgb(242, 241, 241);
 }
+
+/* section portfolio ** */
+
 /* section about ** */
 .container_about {
   width: 70%;
