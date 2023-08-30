@@ -14,23 +14,32 @@ main section:nth-child(odd) {
   color: white;
 }
 
-.container-start {
+.container_start {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
 }
+.container_start figure {
+  width: 300px;
+  height: 300px;
+}
+.container_start figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-.container-about {
+.container_about {
   width: 70%;
   max-width: 980px;
   margin: 0 auto;
 }
 
-.footer-top {
+.footer_top {
   background-color: #3a546d;
 }
 
-.footer-bottom {
+.footer_bottom {
   background-color: #2d3d4f;
   height: 110px;
 }
