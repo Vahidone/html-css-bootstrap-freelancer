@@ -24,6 +24,7 @@ main section:nth-child(odd) {
 /* section start  *****/
 .container_start {
   width: 80%;
+  max-width: 900px;
   margin: 0 auto;
 }
 .container_start figure {
@@ -36,10 +37,10 @@ img {
   object-fit: cover;
   border-radius: 10px;
 }
-.container_start .icon_star {
+.icon_star {
   height: 40px;
 }
-/* TODO: la lunghezza delle linee in responsive mode >> in lavorazione  */
+
 .icon_star .line_icon {
   width: 15%;
   height: 10%;
