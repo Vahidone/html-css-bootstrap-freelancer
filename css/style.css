@@ -15,8 +15,7 @@ main section:nth-child(odd) {
 }
 /* section start  *****/
 .container_start {
-  width: 100%;
-  max-width: 600px;
+  width: 80%;
   margin: 0 auto;
 }
 .container_start figure {
@@ -31,17 +30,32 @@ main section:nth-child(odd) {
 .container_start .icon_star {
   height: 40px;
 }
+/* TODO: la lunghezza delle linee in responsive mode >> in lavorazione  */
 .container_start .icon_star .line_icon {
-  width: 25%;
+  width: 15%;
   height: 10%;
   background-color: white;
 }
 .container_start .icon_star .star {
-  width: 20%;
+  width: 10%;
   height: 116%;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
 }
-
+.jobs span {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 1.8rem;
+}
+.jobs a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.jobs a:hover {
+  text-decoration: underline;
+  color: rgb(242, 241, 241);
+}
+/* section about ** */
 .container_about {
   width: 70%;
   max-width: 980px;
